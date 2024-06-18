@@ -19,4 +19,4 @@ function updateAsciiElements() {
 }
 
 // Change character every 100 milliseconds
-setInterval(updateAsciiElements, 1);
+setInterval(updateAsciiElements, 5);
