@@ -76,3 +76,8 @@ div.list-container {
     padding-top: 10px;
     padding-bottom: 10px;
 }
+
+div.list-title-container {
+    display: block;
+    text-align: left;
+}
