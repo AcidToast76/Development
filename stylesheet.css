@@ -164,3 +164,6 @@ a {
     text-decoration: none;
 }
 
+span.ScrollingASCII {
+    font-size: 40px;
+}
