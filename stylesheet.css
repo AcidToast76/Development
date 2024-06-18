@@ -1,13 +1,20 @@
 html {
     background-color: black;
     color: rgba(171, 35, 255, 0.742);
-    text-align: center;
     height: 100%;
     border: 3px solid rgba(171, 35, 255, 0.742);
     margin: 5px;
     border-radius: 10px;
     box-shadow: 0px 0px 2px 2px rgba(171, 35, 255, 0.742);
     font-family: "lucida console", monospace;
+}
+
+h1.top {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 h1.Introduction-title {
@@ -41,7 +48,8 @@ p.text {
 }
 
 div.text {
-    display: flex;
+    display: block;
+    align-items: left;
     justify-content: left;
     text-align: left;
     font-size: 20px;
@@ -54,28 +62,12 @@ div.text {
     padding-bottom: 10px;
 }
 
-
 ul.image-1 {
     display: flex;
     text-align: left;
 }
 
-div.list-container {
-    display: flex;
-    justify-content: left;
-    text-align: left;
-    font-size: 20px;
-    border: 3px solid rgba(171, 35, 255, 0.742);
-    box-shadow: 0px 0px 2px 2px rgba(171, 35, 255, 0.742);
-    border-radius: 10px;
-    margin-left: 20px;
-    margin-top: 20px;
-    margin-right: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
+
 ul.list {
     padding-top: 0px;
 }
@@ -83,11 +75,79 @@ div.list-title-container {
     display: block;
     text-align: left;
     padding-top: 0px;
-    margin-top: 0px;
 }
 
 p.list-title {
     font-size: 20px;
     margin-top: 0px;
     padding-top: 0px;
+}
+
+button.button {
+    background-color: black;
+    color: rgba(171, 35, 255, 0.742);
+    border: 3px solid rgba(171, 35, 255, 0.742);
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px 2px rgba(171, 35, 255, 0.742);
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: "lucida console", monospace;
+}
+
+div.grid-item1 {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    border: 3px solid rgba(171, 35, 255, 0.742);
+    box-shadow: 0px 0px 2px 2px rgba(171, 35, 255, 0.742);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin: 20px;
+}
+
+div.grid-item2 {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    border: 3px solid rgba(171, 35, 255, 0.742);
+    box-shadow: 0px 0px 2px 2px rgba(171, 35, 255, 0.742);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.grid-item3 {
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    font-size: 20px;
+    border: 3px solid rgba(171, 35, 255, 0.742);
+    box-shadow: 0px 0px 2px 2px rgba(171, 35, 255, 0.742);
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+div.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
 }
