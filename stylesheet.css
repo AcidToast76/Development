@@ -79,8 +79,14 @@ div.list-title-container {
 
 p.list-title {
     font-size: 20px;
-    margin-top: 0px;
-    padding-top: 0px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+div.list-title-container {
+    display: block;
+    text-align: left;
+
 }
 
 button.button {
@@ -149,5 +155,12 @@ div.grid-item3 {
 div.grid-container {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-gap: 20px;
+    grid-template-rows: auto auto;
+    gap: 10px
 }
+
+a {
+    color: rgba(171, 35, 255, 0.742);
+    text-decoration: none;
+}
+
