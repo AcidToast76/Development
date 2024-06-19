@@ -1,1 +1,3 @@
-This is the website i am currently building and could be maintaining soon.
+something bad happened and a large video i tried to embed ruined everything so i made a new repo here:
+
+
